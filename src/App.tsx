@@ -9,6 +9,7 @@ import { Integration } from "./components/sections/Integration";
 import { Enterprise } from "./components/sections/Enterprise";
 import { Globe } from "./components/ui/Globe";
 import { CodeDemo } from "./components/sections/CodeDemo";
+import { FAQ } from "./components/sections/FAQ";
 import StarsCanvas from "./components/ui/StarBackground";
 
 function App() {
@@ -24,6 +25,7 @@ function App() {
         <Integration />
         <Pricing />
         <Enterprise />
+        <FAQ />
         <Testimonials />
         <CTA />
         <Footer />
