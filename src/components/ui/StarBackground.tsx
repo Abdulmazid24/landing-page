@@ -1,6 +1,6 @@
 "use client";
 
-import React, { useState, useRef, Suspense } from "react";
+import { useState, useRef, Suspense } from "react";
 import { Canvas, useFrame } from "@react-three/fiber";
 import { Points, PointMaterial, Preload } from "@react-three/drei";
 // @ts-ignore
@@ -12,7 +12,7 @@ const StarBackground = (props: any) => {
         random.inSphere(new Float32Array(5000), { radius: 1.2 })
     );
 
-    useFrame((state, delta) => {
+    useFrame((_state, delta) => {
         ref.current.rotation.x -= delta / 10;
         ref.current.rotation.y -= delta / 15;
     });
@@ -31,7 +31,7 @@ const StarBackground = (props: any) => {
                     color="$fff"
                     size={0.002}
                     sizeAttenuation={true}
-                    dethWrite={false}
+                    depthWrite={false}
                 />
             </Points>
         </group>
