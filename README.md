@@ -90,7 +90,7 @@ src/
 I am a **Full Stack MERN Developer** specializing in building high-end, scalable web applications. I focus on clean code, modern design, and exceptional user experience.
 
 - **GitHub**: [Abdulmazid24](https://github.com/Abdulmazid24)
-- **Portfolio**: [Your Portfolio Link Here]
+- **Portfolio**: [https://abdulmazid-portfolio.vercel.app/](https://abdulmazid-portfolio.vercel.app/)
 - **Email**: [Your Email Here]
 
 ---
