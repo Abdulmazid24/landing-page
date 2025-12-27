@@ -4,6 +4,9 @@ import { Hero } from "./components/sections/Hero";
 import { Features } from "./components/sections/Features";
 import { Testimonials } from "./components/sections/Testimonials";
 import { CTA } from "./components/sections/CTA";
+import { Pricing } from "./components/sections/Pricing";
+import { Integration } from "./components/sections/Integration";
+import { Enterprise } from "./components/sections/Enterprise";
 import StarsCanvas from "./components/ui/StarBackground";
 
 function App() {
@@ -14,6 +17,9 @@ function App() {
       <div className="flex flex-col gap-20">
         <Hero />
         <Features />
+        <Integration />
+        <Pricing />
+        <Enterprise />
         <Testimonials />
         <CTA />
         <Footer />
