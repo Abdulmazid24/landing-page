@@ -7,6 +7,8 @@ import { CTA } from "./components/sections/CTA";
 import { Pricing } from "./components/sections/Pricing";
 import { Integration } from "./components/sections/Integration";
 import { Enterprise } from "./components/sections/Enterprise";
+import { Globe } from "./components/ui/Globe";
+import { CodeDemo } from "./components/sections/CodeDemo";
 import StarsCanvas from "./components/ui/StarBackground";
 
 function App() {
@@ -16,7 +18,9 @@ function App() {
       <Navbar />
       <div className="flex flex-col gap-20">
         <Hero />
+        <CodeDemo />
         <Features />
+        <Globe />
         <Integration />
         <Pricing />
         <Enterprise />
