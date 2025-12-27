@@ -1,7 +1,9 @@
-import React from "react";
 import { Navbar } from "./components/layout/Navbar";
+import { Footer } from "./components/layout/Footer";
 import { Hero } from "./components/sections/Hero";
 import { Features } from "./components/sections/Features";
+import { Testimonials } from "./components/sections/Testimonials";
+import { CTA } from "./components/sections/CTA";
 import StarsCanvas from "./components/ui/StarBackground";
 
 function App() {
@@ -12,10 +14,9 @@ function App() {
       <div className="flex flex-col gap-20">
         <Hero />
         <Features />
-        {/* Placeholder for future sections */}
-        <div className="h-[500px] w-full z-[20] flex items-center justify-center text-white/20 text-4xl font-bold">
-          More Content Coming Soon...
-        </div>
+        <Testimonials />
+        <CTA />
+        <Footer />
       </div>
     </main>
   );
